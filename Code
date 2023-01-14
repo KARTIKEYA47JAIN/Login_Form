@@ -26,7 +26,7 @@ class FrameWork extends Frame implements ActionListener
    Button view = new Button("View");
    Button passButton = new Button("Login");//Button specifically for Password Window
    
-   //As Password will remain constant forever
+   //By this Password will remain constant forever
    private String password = "oblivion";
 
    FrameWork()
