@@ -26,7 +26,7 @@ class FrameWork extends Frame implements ActionListener
    Button view = new Button("View");
    Button passButton = new Button("Login");//Button specifically for Password Window
    
-   //As Password will remain constant forever
+   //Password will remain constant forever
    private String password = "oblivion";
 
    FrameWork()
@@ -343,7 +343,7 @@ public class Form
         //Creating a File to store Data
         try
         {
-                File db = new File("/Users/vipulpayal/Desktop/Java Form/DataBook.txt");
+                File db = new File("# mention the address where the text file will get saved");
                 db.createNewFile();
         }
         catch (IOException db)
